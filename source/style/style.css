@@ -1976,3 +1976,12 @@ border-radius: 6px;
 
 
 }
+
+
+.menu-content ul .active-menuItem{
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 130%;
+    color: #000000;
+
+}

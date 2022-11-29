@@ -93,5 +93,18 @@ document.addEventListener('DOMContentLoaded',function(){
           
       )
       })
+
+
+      const menuListItem = document.querySelectorAll('.menu-content ul li')
+
+
+      menuListItem.forEach(item=>{
+        item.classList.remove('active-menuItem')
+        item.addEventListener('click',function(){
+          menuListItem.forEach(li=>li.classList.remove('active-menuItem'))
+                item.classList.add('active-menuItem')
+    })}
+        
+    )
       
 })
